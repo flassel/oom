@@ -1,11 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Globalization;
 using System.Net;
 
 namespace Task2
 {
-	public class Notebook
+    public class Notebook
 	{
 		private decimal m_price;
 

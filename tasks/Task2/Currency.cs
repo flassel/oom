@@ -1,9 +1,6 @@
-﻿using System;
-
-
-namespace Task2
+﻿namespace Task2
 {
-	public enum Currency
+    public enum Currency
 	{
 		/// <summary>
 		/// Euro.

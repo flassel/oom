@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
 using Newtonsoft.Json;
 
@@ -25,7 +24,7 @@ namespace Task4
             // 4. store json string to file "items.json" on your Desktop
             var text = JsonConvert.SerializeObject(products, settings);
             var desktop = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
-            var filename = Path.Combine(desktop, "items.json");
+            var filename = Path.Combine(desktop, "products.json");
             File.WriteAllText(filename, text);
 
             // 5. deserialize items from "items.json"
